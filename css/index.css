@@ -152,32 +152,11 @@ body {
   height: 100%;
   font-family: 'Montserrat', sans-serif;
 }
-section.main {
-  width: 100%;
-  height: 100vh;
-  background-color: gray;
+.container {
+  background-color: olive;
+  width: 90%;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  background-image: url("../images/main-background.jpg");
-  background-size: 100% 100%;
-  background-position: center;
-}
-section.main h1 {
-  font-weight: 600;
-  font-size: 3rem;
-  letter-spacing: 1rem;
-  color: white;
-}
-section.main p {
-  font-size: 2rem;
-  color: #eeeeee;
-}
-section.main button {
-  justify-self: baseline;
-  align-self: flex-end;
-}
-section.main nav {
-  display: none;
 }
