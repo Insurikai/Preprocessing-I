@@ -209,3 +209,19 @@ header nav a {
   font-weight: bold;
   margin-left: 4%;
 }
+.content {
+  display: flex;
+}
+.content .left {
+  width: 70%;
+}
+.content .right {
+  width: 30%;
+}
+.content .right ul {
+  margin-left: 5%;
+  margin-top: 5%;
+}
+.content .right ul li {
+  margin-bottom: 5%;
+}
