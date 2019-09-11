@@ -159,6 +159,42 @@ body {
   flex-direction: column;
   align-items: center;
 }
+.container .content {
+  width: 100%;
+  background-color: #e9ecef;
+  border-radius: 10px;
+  display: flex;
+  padding: 2% 2%;
+}
+.container .content img {
+  height: 80vh;
+}
+.container .content .intro {
+  margin-left: 2%;
+}
+.container .content .intro h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.container .content .intro h2 {
+  padding: 3% 2%;
+  font-size: 1.3rem;
+  border-bottom: 1px solid gray;
+}
+.container .content .intro p {
+  margin-top: 4%;
+}
+.container .content .intro button {
+  margin-top: 4%;
+  margin-left: 40%;
+  width: 20%;
+  padding: 1%;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: #808080;
+  border: none;
+  border-radius: 10px;
+}
 header {
   width: 100%;
 }
@@ -171,5 +207,5 @@ header nav a {
   color: black;
   text-decoration: none;
   font-weight: bold;
-  margin-left: 1%;
+  margin-left: 4%;
 }
